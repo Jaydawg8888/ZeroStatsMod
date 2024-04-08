@@ -10,3 +10,9 @@ Whilst in the character switching menu, it will display their original skills. T
 ## Contributing
 
 Feel free to request changes or new features for this mod. You are also welcome to use it in your own videos/streams or fork and modify the mod to create something new!
+
+## Development Set-Up
+
+Follow the [How to install ScriptHookVDotNet](https://nitanmarcel.github.io/scripthookvdotnet/index.html) from the website.
+
+Once you've installed the ScriptHookVDotNet SDK, navigate to where you've cloned the repository and create the following sub-directory: `Thirdparty\gtav_sdk` inside `NegativeStatsMod\NegativeStatsMod`, then drop the `ScriptHookVDotNet3.dll` inside there.
