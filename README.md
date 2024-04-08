@@ -1,5 +1,7 @@
 # Negative Stats Mod for DarkViperAU
 
+![Mod Preview](https://github.com/Jaydawg8888/NegativeStatsMod/blob/main/ModPreview.png?raw=true)
+
 ## Description
 
 This mod for **Grand Theft Auto V** alters the skills of each story character (Michael, Franklin, & Trevor) in the stats menu, permanently setting them to their lowest possible values. This mod drastically limits or even disables the 'Special' ability for each character.
