@@ -10,7 +10,6 @@ namespace NegativeStatsMod
 		public NegativeStats()
 		{
 			Tick += OnTick;
-			Notification.Show("Negative Stats Mod Loaded");
 		}
 
 		private void OnTick(object sender, EventArgs e)
