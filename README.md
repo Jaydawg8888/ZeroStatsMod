@@ -17,6 +17,8 @@ p.s. Removing the mod **should** will revert the character's stats/skills to the
 4. Create a `Scripts` sub-directory if it doesn't already exist.
 5. Drop the `NegativeStatsMod.dll` file into the `Scripts` directory.
 
+**Note:** It is recommended to do this on a new save. However, if you're doing it on a pre-existing save make sure to back it up externally!
+
 ## Contributing
 
 Feel free to request changes or new features for this mod. You are also welcome to use it in your own videos/streams or fork and modify the mod to create something new!
