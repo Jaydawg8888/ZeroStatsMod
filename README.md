@@ -7,6 +7,8 @@ This mod for **Grand Theft Auto V** alters the skills of each story character (M
 **Note:**
 Whilst in the character switching menu, it will display their original skills. This is cosmetic. From testing  the prologue of the story mode up until Michael is unlocked, Franklin is rendered unable to use his special ability altogether.
 
+p.s. Removing the mod **should** will revert the character's stats/skills to their default values.
+
 ## Installation Steps
 
 1. Download and install [Script Hook V](http://www.dev-c.com/gtav/scripthookv/).
