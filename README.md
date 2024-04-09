@@ -7,7 +7,7 @@
 This mod for **Grand Theft Auto V** alters the skills of each story character (Michael, Franklin, & Trevor) in the stats menu, permanently setting them to their lowest possible values whilst the mod exists. This mod drastically limits or even disables the 'Special' ability for each character.
 
 **Note:**
-Removing the mod **should** will revert the character's stats/skills to their default/original values.
+Removing the mod **should** revert the character's stats/skills to their default/original values.
 
 ## Installation Steps
 
