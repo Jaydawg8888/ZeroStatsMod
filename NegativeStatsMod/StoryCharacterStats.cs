@@ -25,17 +25,7 @@ namespace NegativeStatsMod
 					Game.GenerateHash("SP0_WHEELIE_ABILITY"),
 					Game.GenerateHash("SP0_FLYING_ABILITY"),
 					Game.GenerateHash("SP0_SHOOTING_ABILITY"),
-					Game.GenerateHash("SP0_STEALTH_ABILITY"),
-
-					Game.GenerateHash("SP0_SPECIAL_ABILITY_MAXED"),
-					Game.GenerateHash("SP0_SPECIAL_ABILITY_UNLOCKED_MAXED"),
-					Game.GenerateHash("SP0_STAMINA_MAXED"),
-					Game.GenerateHash("SP0_LUNG_CAPACITY_MAXED"),
-					Game.GenerateHash("SP0_STRENGTH_MAXED"),
-					Game.GenerateHash("SP0_WHEELIE_ABILITY_MAXED"),
-					Game.GenerateHash("SP0_FLYING_ABILITY_MAXED"),
-					Game.GenerateHash("SP0_SHOOTING_ABILITY_MAXED"),
-					Game.GenerateHash("SP0_STEALTH_ABILITY_MAXED")
+					Game.GenerateHash("SP0_STEALTH_ABILITY")
 				}
 			},
 			{
