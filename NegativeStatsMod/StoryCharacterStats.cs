@@ -8,7 +8,11 @@ namespace NegativeStatsMod
 {
 	public static class StoryCharacterStatsData
 	{
-		public static Dictionary<PedTypes, List<Int32>> PedStatsHashes = new Dictionary<PedTypes, List<Int32>>
+		/// <summary>
+		/// The <see cref="Game.GenerateHash"/> of the stats so that we can set them to zero.
+		/// The values are hashed once and cached as we'll be using them multiple times.
+		/// </summary>
+		private static Dictionary<PedTypes, List<Int32>> StoryCharacterStatHashes = new Dictionary<PedTypes, List<Int32>>
 		{
 			{
 				PedTypes.PED_TYPE_Michael, new List<Int32>
@@ -68,22 +72,31 @@ namespace NegativeStatsMod
 		/// The hash of the stats controller script. This must be disabled via TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME.
 		/// As otherwise, the game will continually reset the stats back to their original values.
 		/// </summary>
-		// private static Int32 StatsControllerScriptHash { get; } = Game.GenerateHash("stats_controller");
 		private static string StatsControllerScriptHash => "stats_controller";
 
+		/// <summary>
+		/// Whether the stats controller script is running.
+		/// </summary>
+		/// <returns></returns>
 		private static bool IsStatsControllerScriptRunning()
 		{
 			return Function.Call<bool>(Hash.HAS_SCRIPT_LOADED, StatsControllerScriptHash);
 		}
-		
+
+		/// <summary>
+		/// Terminates the stats controller script.
+		/// </summary>
 		private static void TerminateStatsControllerScript()
 		{
 			Function.Call(Hash.TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME, StatsControllerScriptHash);
 		}
 
+		/// <summary>
+		/// Resets all story character stats to zero.
+		/// </summary>
 		public static void ResetAllCharacterStats()
 		{
-			foreach (var stats in PedStatsHashes.Values)
+			foreach (var stats in StoryCharacterStatHashes.Values)
 			{
 				foreach (int statHash in stats)
 				{
@@ -94,13 +107,19 @@ namespace NegativeStatsMod
 			}
 		}
 
+		/// <summary>
+		/// Tries to terminate the <see cref="StatsControllerScriptHash"/>, if it's running.
+		/// </summary>
+		/// <returns>Whether the script was terminated.</returns>
 		public static bool TryTerminateStatControllerScript()
 		{
 			if (!IsStatsControllerScriptRunning())
 			{
+				// the script isn't running, so we don't need to terminate it.
 				return false;
 			}
 
+			// the script was running so set all character stats to zero and then terminate the script.
 			ResetAllCharacterStats();
 			TerminateStatsControllerScript();
 			return true;
