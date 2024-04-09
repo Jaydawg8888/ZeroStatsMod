@@ -43,7 +43,8 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="NegativeStats.cs" />
+        <Compile Include="CharacterSwitchMonitor.cs" />
+        <Compile Include="CharacterStatsHandler.cs" />
         <Compile Include="PedTypes.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="StoryCharacterStats.cs" />
