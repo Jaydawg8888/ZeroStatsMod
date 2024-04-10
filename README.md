@@ -15,7 +15,7 @@ Removing the mod **should** revert the character's stats/skills to their default
 2. Download [Script Hook V Dot Net](https://github.com/scripthookvdotnet/scripthookvdotnet/releases) (Tested v3.6.0).
 3. Once you have both of these navigate to your GTA V game directory.
 4. Create a `Scripts` sub-directory if it doesn't already exist.
-5. Drop the `NegativeStatsMod.dll` file into the `Scripts` directory.
+5. Drop the `ZeroStatsMod.dll` file into the `Scripts` directory.
 
 **Note:** It is recommended to do this on a new save. However, if you're doing it on a pre-existing save make sure to back it up externally!
 
@@ -27,4 +27,4 @@ Feel free to request changes or new features for this mod. You are also welcome 
 
 Follow the [How to install ScriptHookVDotNet](https://nitanmarcel.github.io/scripthookvdotnet/index.html) from the website.
 
-Once you've installed the ScriptHookVDotNet SDK, navigate to where you've cloned the repository and create the following sub-directory: `Thirdparty\gtav_sdk` inside `NegativeStatsMod\NegativeStatsMod`, then drop the `ScriptHookVDotNet3.dll` inside there.
+Once you've installed the ScriptHookVDotNet SDK, navigate to where you've cloned the repository and create the following sub-directory: `Thirdparty\gtav_sdk` inside `ZeroStatsMod\ZeroStatsMod`, then drop the `ScriptHookVDotNet3.dll` inside there.
