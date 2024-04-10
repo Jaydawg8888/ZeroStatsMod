@@ -1,6 +1,6 @@
-# Negative Stats Mod for DarkViperAU
+# Zero Stats Mod for DarkViperAU
 
-![Mod Preview](https://github.com/Jaydawg8888/NegativeStatsMod/blob/main/ModPreview.png?raw=true)
+![Mod Preview](https://github.com/Jaydawg8888/ZeroStatsMod/blob/main/ModPreview.png?raw=true)
 
 ## Description
 
