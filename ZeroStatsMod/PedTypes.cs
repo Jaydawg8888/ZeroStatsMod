@@ -1,5 +1,5 @@
 ﻿
-namespace NegativeStatsMod
+namespace ZeroStatsMod
 {
 	public enum PedTypes
 	{

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using GTA;
 using GTA.Native;
 
-namespace NegativeStatsMod
+namespace ZeroStatsMod
 {
 	/// <summary>
 	/// Monitors the character switch stats panel if it is active, if so we have to manually update the label values

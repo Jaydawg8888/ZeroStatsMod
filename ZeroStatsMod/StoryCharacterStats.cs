@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using GTA;
 using GTA.Native;
 
-namespace NegativeStatsMod
+namespace ZeroStatsMod
 {
 	public static class StoryCharacterStatsData
 	{

@@ -2,7 +2,7 @@
 using System;
 using GTA;
 
-namespace NegativeStatsMod
+namespace ZeroStatsMod
 {
 	/// <summary>
 	/// Handles the story character's stats periodically setting them to zero to prevent them from increasing.

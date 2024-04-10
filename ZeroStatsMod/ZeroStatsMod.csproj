@@ -8,7 +8,7 @@
         <ProjectGuid>{BF23AA81-A4D3-4443-B92B-B1C55AB722DE}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>NegativeStatsMod</RootNamespace>
+        <RootNamespace>ZeroStatsMod</RootNamespace>
         <AssemblyName>ZeroStatsMod</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>

@@ -440,6 +440,6 @@ FodyWeavers.xsd
 thirdparty/gtav_sdk/
 
 .idea/**
-!.idea/.idea.NegativeStatsMod/.idea/codeStyles/**
-!.idea/.idea.NegativeStatsMod/.idea/inspectionProfiles/**
-!.idea/.idea.NegativeStatsMod/.idea/runConfigurations/**
+!.idea/.idea.ZeroStatsMod/.idea/codeStyles/**
+!.idea/.idea.ZeroStatsMod/.idea/inspectionProfiles/**
+!.idea/.idea.ZeroStatsMod/.idea/runConfigurations/**
